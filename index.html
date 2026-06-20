@@ -38,22 +38,22 @@ const CONFIG = {
      3. Set displayName — what the downloaded file will be named
   ---------------------------------------- */
   resume: {
-    file:        "https://drive.google.com/file/d/1WZ0cekY1feVWpMNS-Vp4zXxYmAB--fnp/view?usp=sharing",   // ← your PDF filename here
+    file:        "https://drive.google.com/file/d/1Y5MjrNuCngYGesojfp0f4xQ0wa2Oyjkq/view?usp=drive_link",   // ← your PDF filename here
     displayName: "Arjit_Gupta_Resume.pdf",   // ← name shown when downloading
   },
 
   /* ---------- CONTACT & SOCIAL ---------- */
   email:    "arjitgupta24@gmail.com",
   phone:    "+91 6387125220",
-  linkedin: "https://www.linkedin.com/in/arjit-gupta-1793ab16a/",
+  linkedin: "https://linkedin.com/in/arjitgupta",
   github:   "https://github.com/ArjitG007",
 
   /* ---------- HERO STATS ---------- */
   stats: [
     { num: "14+",  label: "Months XP"      },
     { num: "350+", label: "DSA Problems"   },
+    { num: "2",    label: "Live Projects"  },
     { num: "8.34", label: "B.Tech CGPA"   },
-    { num: "GATE", label: "GATE Qualified"  }
   ],
 
   /* ---------- TYPING PHRASES ---------- */
@@ -84,12 +84,12 @@ const CONFIG = {
 
   /* ---------- SKILLS ---------- */
   skills: [
-    { category: "Languages",  items: ["Java", "Python", "SQL", "C#", "C++"] },
-    { category: "Backend",    items: ["Spring Boot", "REST APIs", ".NET Framework", "WebClient", "MVC"] },
+    { category: "Languages",  items: ["Java", "Python", "SQL"] },
+    { category: "Backend",    items: ["Spring Boot", "REST APIs", ".NET Framework", "WebClient", "MVC Architecture"] },
     { category: "AI & LLM",   items: ["OpenAI API", "LangChain4j", "Prompt Engineering", "HuggingFace", "LLM Integration"] },
     { category: "Databases",  items: ["PostgreSQL", "MS SQL Server", "MongoDB"] },
     { category: "UI Tools",   items: ["Thymeleaf", "Bootstrap", "HTML5", "CSS3"] },
-    { category: "Tools",      items: ["Git", "GitHub", "Postman", "VS Code"] },
+    { category: "Tools",      items: ["Git", "GitHub", "Postman", "VS Code","IntelliJ"] },
     { category: "Concepts",   items: ["DSA", "OOP", "System Design", "SDLC", "Agile", "Unit Testing"] },
   ],
 
@@ -131,21 +131,21 @@ const CONFIG = {
      stack    : tech chips shown at bottom
   ----------------------------------------- */
   projects: [
-    // {
-    //   icon:    "🤖",
-    //   name:    "AI Resume Screener",
-    //   desc:    "A Spring Boot microservice that accepts a resume and job description, sends them to an LLM via OpenAI API, and returns a structured match score with strengths and gaps — all via REST.",
-    //   github:  "",
-    //   demo:    "",
-    //   features: [
-    //     "REST endpoint accepts resume text + job description",
-    //     "Integrates with OpenAI GPT via LangChain4j",
-    //     "Returns JSON with match score, strengths, and gaps",
-    //     "Prompt engineering for consistent structured output",
-    //     "Stateless and deployable as a microservice",
-    //   ],
-    //   stack: ["Java", "Spring Boot", "OpenAI API", "LangChain4j", "REST API"],
-    // },
+    {
+      icon:    "🤖",
+      name:    "AI Resume Screener",
+      desc:    "A Spring Boot microservice that accepts a resume and job description, sends them to an LLM via OpenAI API, and returns a structured match score with strengths and gaps — all via REST.",
+      github:  "https://github.com/ArjitG007/AI-Resume-Screener",
+      demo:    "",
+      features: [
+        "REST endpoint accepts resume text + job description",
+        "Integrates with OpenAI GPT via LangChain4j",
+        "Returns JSON with match score, strengths, and gaps",
+        "Prompt engineering for consistent structured output",
+        "Stateless and deployable as a microservice",
+      ],
+      stack: ["Java", "Spring Boot", "OpenAI API", "LangChain4j", "REST API"],
+    },
     {
       icon:    "🔗",
       name:    "URL Shortener",
@@ -194,7 +194,7 @@ const CONFIG = {
       degree: "Master of Technology (M.Tech)",
       field:  "Information Technology",
       univ:   "Netaji Subhas University of Technology, Delhi",
-      badges: ["CGPA: 8.00", "Expected: 2027"],
+      badges: ["CGPA: 8.20", "Expected: 2027"],
     },
     {
       degree: "Bachelor of Technology (B.Tech)",
